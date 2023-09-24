@@ -1,0 +1,531 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+border: none;
+color: white;
+border: border-box;
+letter-spacing: 0.7px;
+}
+
+/* hover effect */
+.border-hov{
+    border: 2px solid transparent;
+}
+
+.border-hov:hover{
+    border: 1.6px solid white;
+    border-radius: 2px;
+}
+
+/* navigation one */
+#nav1{
+    height: 60px;
+    background-color: #182431;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* logo */
+.logo-out{
+    height: 50px;
+    width: 110px;
+}
+
+.logo-in{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* location */
+.loc{
+    display: flex;
+}
+
+.up{
+    font-size: 12px;
+}
+
+.down{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* search bar */
+.search{
+    display: flex;
+    height: 40px;
+    width: 700px;
+}
+
+.search-one{
+    height: 40px;
+    width: 65px;
+    background-color: #e2e2e2;
+    color: #494949;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.search-one:hover{
+    background-color: #c7c7c7;
+}
+
+.search-two{
+    height: 40px;
+    width: 100%;
+    font-size: 0.9rem;
+padding-left: 12px;
+}
+
+.search-two::placeholder{
+    color: #817f7f;
+    font-weight: bold;
+}
+
+.search-three{
+    height: 40px;
+    width: 50px;
+    background-color: #febd68;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.search-three:hover{
+    background-color: #f8a840;
+}
+
+/* language */
+.lang{
+    display: flex;
+    align-items: center;
+}
+.lang_img{
+    height: 25px;
+    width: 27px;
+}
+
+.en{
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+/* cart */
+.cart{
+    display: flex;
+
+}
+
+.cart_txt{
+    font-weight: bold;
+    position: relative;
+    top: 14px;
+}
+
+
+/* ============================ */
+/* navigation two */
+.nav2{
+    height: 40px;
+    background-color: #222f3d;
+}
+
+.items{
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.all{
+    font-weight: bolder;
+    margin-left: 2px;
+}
+
+.hom{
+    margin-left: 15px;
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+}
+
+/* ================================== */
+/* hero section */
+.link{
+    text-decoration: none;
+    color: #007185;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
+.hero_one{
+    background-image: url("kit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.hero{
+    height: 4450px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), #bbbfbf) top, linear-gradient(#bbbfbf, #bbbfbf) bottom;
+    background-size: 100% 50%, 100% 50%;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    top: 300px;
+}
+
+.hero_para{
+    height: 40px;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    width: 97%;
+    margin: 0px 20px 0px 20px;
+    font-size: 13px;
+}
+
+/* herosection cards */
+
+.hero_sec{
+    height: 900px;
+    /* background-color: #817f7f; */
+    position: relative;
+    bottom: 20px;
+}
+
+.one{
+    display: flex;
+    padding: 10px 10px 0px 10px;
+}
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: #ffffff;
+   border: none;
+   border-radius: 0px;
+    margin: 10px;
+}
+
+.two{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+/* card 1 */
+
+.card_in{
+    padding: 20px;
+}
+
+.card_in_whole{
+    height: 280px;
+    margin: 10px 0px 10px 0px;
+}
+
+.card_in_pro{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.pro{
+    height: 100%;
+    width: 50%;
+}
+
+.card_para{
+    color: #0f1111;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    top: 2%;
+    left: 5px;
+}
+
+.card_img{
+    height: 110px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* card 2 */
+.img1{
+    background-image: url("toy.jpg");
+}
+
+.img2{
+    background-image: url("home.jpg");
+}
+
+.img3{
+    background-image: url("hair.jpg");
+}
+
+.img4{
+    background-image: url("ele.jpg");
+}
+
+.img5{
+    background-image: url("beauty.jpg");
+}
+.toy_img{
+    height: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 15px 0px;
+}
+
+/* card4 */
+.card4{
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+}
+.card_sign{
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.card_sign_but{
+    height: 30px;
+    width: 100%;
+    background-color: #ffcc24;
+    border-radius: 8px;
+    color: #0f1111;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+.card_sign_but:hover{
+    background-color: #f0b905;
+}
+
+.sign_img{
+    background-image: url("Fuji_D2_45M_en_US_1x._CB418309979_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    width: 290px;
+    margin: 20px 10px 0px 10px;
+}
+
+.card_img1{
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_in_pro1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.la_card{
+    margin-left: 15px;
+}
+
+.sub_sec{
+    background-color: #ffffff;
+    margin: 10px 20px 20px 20px;
+}
+
+.sub_sec_in{
+    padding: 20px;
+}
+
+.sub_sec_img{
+    display: flex;
+}
+
+/* sign bottom */
+.sign_down{
+    background-color: #ffffff;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_down_but{
+    background-color: #ffcc24;
+    border-radius: 3px;
+    color: #0f1111;
+    font-weight: bold;
+    border: 1px solid orange;
+    height: 25px;
+    width: 250px;
+    margin: 5px 0px 5px 0px;
+}
+
+/* footer */
+
+.back{
+    background-color: #222f3d;
+    height: 45px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back:hover{
+    background-color: #3f4646;
+}
+
+.link1{
+    background-color: #182431;
+    height: 500px;
+}
+
+.link11{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+    height: 250px;
+}
+
+.link11_in{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.link11_in h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.link11_in a{
+    text-decoration: none;
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.link11_in a:hover{
+    text-decoration: underline;
+}
+
+.link12{
+    display: flex;
+    height: 150px;
+    position: relative;
+    top: 95px;
+    align-items: center ;
+    justify-content: center;
+border-top: 1px solid #bbbfbf;
+}
+
+.foot_sec{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.foot_lang{
+    height: 25px;
+    width: 120px;
+}
+
+.foot_cur{
+    height: 25px;
+    width: 140px;
+}
+
+.foot_loc{
+    width: 130px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.foot_bod{
+    border: 1.5px solid white;
+    border-radius: 2px;
+    margin: 6px;
+    padding: 2px 6px;
+}
+
+.last_link{
+    background-color: #080f18;
+    height:590px;
+}
+
+.last_link_out{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+    padding: 0px 170px;
+}
+
+.ll_in{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.ll_in a{
+    text-decoration: none;
+}
+
+.ll_in a:hover{
+    text-decoration: underline;
+}
+
+.ll_up{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.ll_down{
+    margin-bottom: 40px;
+    width: 90px;
+    color: #999999;
+}
+
+.copy{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #dddddd;
+}
+
+.copy_up{
+    display: flex;
+}
+
+.copy1{
+    margin: 7px;
+}
